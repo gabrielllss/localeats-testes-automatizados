@@ -1,0 +1,15 @@
+============================= test session starts ==============================
+platform linux -- Python 3.11.2, pytest-9.2.0, pluggy-1.7.0 -- /opt/siderclaw-venv/bin/python3
+cachedir: .pytest_cache
+rootdir: /tmp/sider-harness/data/sessions/01M7AEM74EYKKVBBQQXYM3MPNX/workspace/atividades/atividade-04
+collecting ... collected 7 items
+
+tests/test_localeats.py::test_filtrar_restaurantes_por_categoria_italiana PASSED [ 14%]
+tests/test_localeats.py::test_pesquisar_restaurante_por_localizacao PASSED [ 28%]
+tests/test_regras_localeats.py::test_pedido_sem_desconto_abaixo_de_100 PASSED [ 42%]
+tests/test_regras_localeats.py::test_pedido_com_desconto_dez_porcento[100-10] PASSED [ 57%]
+tests/test_regras_localeats.py::test_pedido_com_desconto_dez_porcento[150-15] PASSED [ 71%]
+tests/test_regras_localeats.py::test_pedido_com_desconto_dez_porcento[200-20] PASSED [ 85%]
+tests/test_regras_localeats.py::test_desconto_valor_negativo_gera_erro PASSED [100%]
+
+============================== 7 passed in 3.61s ===============================
